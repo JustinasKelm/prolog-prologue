@@ -1,0 +1,15 @@
+:- initialization(main).
+main :- write('Labas pasaulį!').
+
+vyras(gediminas).
+vyras(justinas).
+maistas(makaronai).
+maistas(desreles).
+maistas(kebabas).
+
+valgo_maistas(gediminas, kebabas).
+valgo_maistas(gediminas, makaronai).
+valgo_maistas(justinas, kebabas).
+
+linksmas(gediminas) :-
+    valgo(gediminas, kebabas).
