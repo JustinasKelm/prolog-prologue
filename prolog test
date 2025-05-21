@@ -6,10 +6,11 @@ vyras(justinas).
 maistas(makaronai).
 maistas(desreles).
 maistas(kebabas).
+maistas(obuolys).
 
-valgo_maistas(gediminas, kebabas).
-valgo_maistas(gediminas, makaronai).
-valgo_maistas(justinas, kebabas).
+valgo(gediminas, kebabas).
+valgo(gediminas, makaronai).
+valgo(justinas, kebabas).
 
 linksmas(gediminas) :-
     valgo(gediminas, kebabas).
